@@ -29,12 +29,26 @@ html, body, .app {
 }
 
 .icon-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+
   width: 50px;
   height: 50px;
+
+  fill: #fff;
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 .icon-flower {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 
+  width: 30px;
+  height: 50px;
 }
 
 .page-profile {
@@ -53,10 +67,34 @@ html, body, .app {
   right: 0;
   z-index: 2;
 
+  display: flex;
   width: 100%;
   height: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #6a6b6d;
+
+  transform: translateZ(0);
+  transition: all 0.8s;
+}
+
+.page-loader.stop {
+  width: 50%;
+}
+
+.page-loader-content {
+  position: relative;
+
+  width: 70px;
+  height: 87px;
 }
 
 @media (max-width: 980px) {
 
 }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
