@@ -15,6 +15,11 @@ html, body, .app {
 
 .app {
   overflow-y: auto;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
 }
 
 .svg-container {
@@ -148,7 +153,38 @@ html, body, .app {
 }
 
 @media (max-width: 980px) {
+  .page-profile {
+    position: relative;
 
+    width: 100%;
+  }
+
+  .page-profile-content {
+    justify-content: flex-start;
+
+    padding: 8%;
+  }
+
+  .page-profile-content-paragraph {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .page-profile-footer {
+    padding: 0 8% 8%;
+  }
+
+  .page-profile-footer-link:hover {
+    border-color: #888;
+  }
+
+  .page-profile-footer-link:active {
+    border-color: transparent;
+  }
+
+  .page-loader {
+    position: relative;
+  }
 }
 
 @-webkit-keyframes spin {
