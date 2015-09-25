@@ -49,8 +49,8 @@ html, body, .app {
   top: 0;
   left: 0;
 
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 
   fill: #fff;
   -webkit-animation: spin 1s steps(12) infinite;
@@ -62,8 +62,8 @@ html, body, .app {
   bottom: 0;
   right: 0;
 
-  width: 30px;
-  height: 50px;
+  width: 60px;
+  height: 100px;
 }
 
 .page-profile {
@@ -112,7 +112,7 @@ html, body, .app {
   justify-content: center;
   /*align-self: center;*/
 
-  padding: 10%;
+  padding: 20% 10% 10%;
 }
 
 .page-profile-content-paragraph {
@@ -127,25 +127,31 @@ html, body, .app {
   padding: 0 10% 10%;
 }
 
-.page-profile-footer-link {
-  display: inline-block;
-  padding: 0 0 1px;
+.page-profile-footer-paragraph {
+  margin: 0 0 5px;
 
-  margin: 0 5px;
+  color: #888;
+  font-size: 16px;
+}
+
+.page-profile-footer-paragraph-link, .page-profile-footer-link {
+  display: inline-block;
+  padding: 0;
 
   text-decoration: none;
   border-bottom: 1px dotted #888;
 
   color: #888;
   font-size: 16px;
+  line-height: 18px;
 }
 
-.page-profile-footer-link:first-child {
-  margin-left: 0;
-}
-
-.page-profile-footer-link:hover {
+.page-profile-footer-paragraph-link:hover, .page-profile-footer-link:hover {
   border-color: transparent;
+}
+
+.page-profile-footer-link {
+  margin: 0 10px 0 0;
 }
 
 .page-loader {
@@ -185,8 +191,8 @@ html, body, .app {
 .page-loader-content {
   position: relative;
 
-  width: 70px;
-  height: 87px;
+  width: 140px;
+  height: 174px;
 }
 
 @media (max-width: 980px) {
@@ -214,16 +220,20 @@ html, body, .app {
     padding: 0 8% 8%;
   }
 
-  .page-profile-footer-link:hover {
+  .page-profile-footer-paragraph-link:hover, .page-profile-footer-link:hover {
     border-color: #888;
   }
 
-  .page-profile-footer-link:active {
+  .page-profile-footer-paragraph-link:active, .page-profile-footer-link:active {
     border-color: transparent;
   }
 
   .page-loader {
     position: relative;
+  }
+
+  .page-loader.stop {
+    width: 100%;
   }
 }
 
