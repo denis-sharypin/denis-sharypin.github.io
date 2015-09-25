@@ -49,8 +49,8 @@ html, body, .app {
   top: 0;
   left: 0;
 
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
 
   fill: #fff;
   -webkit-animation: spin 1s steps(12) infinite;
@@ -62,7 +62,7 @@ html, body, .app {
   bottom: 0;
   right: 0;
 
-  width: 60px;
+  width: 50px;
   height: 100px;
 }
 
