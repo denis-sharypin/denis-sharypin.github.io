@@ -112,7 +112,7 @@ html, body, .app {
   justify-content: center;
   /*align-self: center;*/
 
-  padding: 20% 10% 10%;
+  padding: 10% 10% 10%;
 }
 
 @keyframes fadeIn {
