@@ -115,6 +115,25 @@ html, body, .app {
   padding: 20% 10% 10%;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(.9);
+  }
+  70% {
+    opacity: .2;
+    transform: scale(.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#fade-container {
+  animation: fadeIn 1.44s ease;
+}
+
 .page-profile-content-paragraph {
   margin: 10px 0;
 
