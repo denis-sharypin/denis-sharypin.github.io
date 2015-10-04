@@ -131,6 +131,25 @@ html, body, .app {
 }
 
 #fade-container {
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /*align-self: center;*/
+  position: relative;
   animation: fadeIn 1.44s ease;
 }
 
@@ -143,6 +162,8 @@ html, body, .app {
 }
 
 .page-profile-footer {
+  position: absolute;
+  bottom: 0;
   padding: 0 10% 5%;
 }
 
