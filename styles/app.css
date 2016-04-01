@@ -216,7 +216,7 @@ html, body, .app {
   -ms-flex-align: center;
   align-items: center;
 
-  background-color: #6a6b6d;
+  background-color: #000;
 
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
