@@ -1,0 +1,120 @@
+
+<html>
+	<head>
+    <title>Kyle Meyer / Work</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}" />
+     <script type="text/javascript">
+	    MTIConfig = {};
+    	MTIConfig.EnableCustomFOUTHandler = true // true = prevent FOUT
+		</script>
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/4de7f47b-884c-49fa-99f6-108f75d9608c.js"></script>
+    <link href="/css/2015.css" type="text/css" rel="stylesheet" />
+<!--
+    <script type="text/javascript">document.createElement( "picture" );</script>
+		<script type="text/javascript" src="/js/picturefill.min.js" async></script>
+-->
+	</head>
+	<body id="work">
+		
+    <header>
+		  <h1><a href="/">Kyle Meyer</a></h1>
+      <ol>
+	     <li><a class="active" href="/">Work</a></li>
+	     <li><a href="http://blog.kylemeyer.com">Blog</a></li>
+	     <li><a href="/about/">About</a></li>
+      </ol>
+      <p><a href="mailto:hi@kylemeyer.com?subject=Inquiry">hi@kylemeyer.com</a></p>
+    </header>
+    
+    <section class="container">
+			<ul id="posts">
+				<li class="post groups">
+ 					<h3>Facebook Groups</h3>
+ 					<h5>2014&thinsp;&#8211;&thinsp;2015 Lead Designer</h5>
+					<div class="photo hero">
+						<div><img src="img/groups-app-2480.jpg" /></div>
+					</div>
+					<div class="quotes clearfix">
+						<p>I wouldn&#8217;t be surprised if I use it every day. ...the Groups app turns Facebook into a place that&#8217;s all about my own interests&thinsp;&#8212;&thinsp;and leaves me wanting to hang out there even more than I already&nbsp;do. <span id="fastco">Fast Company</span></p>
+						<p>We&#8217;ve been using the app for a few days now and found it to be fast, fluid, intuitive, and surprisingly fun. That&#8217;s not a huge surprise&thinsp;&#8212;&thinsp;it comes in part from Facebook&#8217;s Creative Labs, which has been responsible for other polished Facebook apps like Paper and&nbsp;Slingshot. <span id="verge">The Verge</span></p>
+						<p>All credit to Facebook&thinsp;&#8212;&thinsp;the Groups app is prettily designed and laid out in a simple and accessible way. It&#8217;s been crafted to feel more like a private forum than an email thread. <span id="wired">Wired</span></p>
+					</div>
+					<div class="set clearfix">
+						<div class="photo">
+							<div><img src="img/groups-mall.jpg" class="single_phone" /></div>
+						</div>
+						<div class="photo last">
+							<div><img src="img/groups-inlinecomments.jpg" class="single_phone" /></div>
+						</div>
+							
+						<div class="photo">
+							<div><img src="img/groups-nux2.png" class="single_phone" /></div>
+						</div>		
+						<div class="photo last">
+							<div><img src="img/groups-mygroups.jpg" class="single_phone" /></div>
+						</div>
+					</div>
+				</li>
+				<li class="post">
+   				<h3>Facebook Profiles</h3>
+   				<h5>2013 Lead Designer</h5>
+					<div id="profiledetail" class="photo clearfix">
+						<div><img src="img/profile-detail-narrow-blue.png" /></div>
+					</div>
+   				<div class="photo clearfix">
+						<div><img src="img/profile-2300.jpg" /></div>
+					</div>
+					<div id="movieset" class="photo clearfix">
+						<div><img src="img/profile-movieset-narrow-blue.png" /></div>
+					</div>
+				</li>
+				<li class="post">
+					<h3>Facebook Timeline</h3>
+					<h5>2012&thinsp;&#8211;&thinsp;2013 with <a href="http://wilsonminer.com">Wilson Miner</a></h5>
+					<p>
+					<div id="fbtimeline" class="photo clearfix">
+						<div><img src="img/timeline-narrow.jpg" /></div>
+					</div>
+				</li>
+				<li class="post">
+					<h3>Big Cartel Store Customization</h3>
+					<h5>2011</h5>
+					<div id="custo" class="photo clearfix">
+						<div><img src="img/bc-custo-2500.jpg" /></div>
+					</div>
+					<div id="bcpanes" class="set clearfix">
+						<div class="photo first"><div><img src="img/bc-themes.png" /></div></div>
+						<div class="photo second"><div><img src="img/bc-advanced.png" /></div></div>
+						<div class="photo"><div><img src="img/bc-color.png" /></div></div>
+						<div class="photo last"><div><img src="img/bc-edit.png" /></div></div>
+					</div>
+				</li>
+				<li id="misc" class="post last">
+ 					<h3>Misc</h3>
+ 					<h5>2007&thinsp;&#8211;&thinsp;2012</h5>
+ 					<div class="masonry container clearfix">
+ 						<img src="img/buildconf-1280.png" />
+ 						<img src="img/build2012home-1280.png" />
+						<img src="img/typesites-1280.png" />
+						<img src="img/themanual-1280.png" />
+						<img src="img/astheria-1280.png" />
+						<img src="img/needswants-1280.jpg" />
+					</div>
+				</li>
+			</ul>
+		</section>
+
+    <footer>
+		  <h1><a href="/">Kyle Meyer</a></h1>
+      <ol>
+	     <li><a class="active" href="/">Work</a></li>
+	     <li><a href="http://blog.kylemeyer.com">Blog</a></li>
+	     <li><a href="/about/">About</a></li>
+      </ol>
+      <p><a href="mailto:hi@kylemeyer.com?subject=Inquiry">hi@kylemeyer.com</a></p>
+    </footer>
+
+
+	</body>
+</html>
