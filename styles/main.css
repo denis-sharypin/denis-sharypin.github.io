@@ -1,7 +1,7 @@
 /* GENERAL */
 @font-face {
  font-family: "GT-Walsheim";
- src: url("http://www.denis-sharypin.github.io/fonts/gt-walsheim-medium-web.woff") format("woff");
+ src: url("../fonts/gt-walsheim-medium-web.woff") format("woff");
 }
 
 html, body {
