@@ -173,7 +173,7 @@ p {
 
   .status {
     position: relative;
-    top: -340px;
+    margin-top: -80%;
   }
   .status-network p {
     border: 1px solid #DDDDDD;
