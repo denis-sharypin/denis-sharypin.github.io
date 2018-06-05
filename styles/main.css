@@ -173,10 +173,23 @@ p {
 
   .status {
     position: relative;
-    top: -340px;
+    margin-top: -80%;
   }
   .status-network p {
     border: 1px solid #DDDDDD;
   }
 
 }
+
+/* iPhone X media query */
+@media (device-width: 375px) 
+  and (device-height: 812px)
+  and (-webkit-device-pixel-ratio : 3) {
+
+  .status {
+    position: relative;
+    margin-top: -105%;
+  }
+
+}
+
