@@ -173,7 +173,7 @@ p {
 
   .status {
     position: relative;
-    margin-top: -80%;
+    margin-top: -70%;
   }
   .status-network p {
     border: 1px solid #DDDDDD;
@@ -188,7 +188,7 @@ p {
 
   .status {
     position: relative;
-    margin-top: -105%;
+    margin-top: -115%;
   }
 
 }
